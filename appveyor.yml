@@ -1,0 +1,8 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+cache: C:\Python37-x64
+build_script:
+- sh: >-
+    sudo C:\Python37-x64\Scripts\pip install opencv-python
+
+    sudo python3 smile.py
