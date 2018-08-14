@@ -1,6 +1,7 @@
-# Depress-o-matic
+﻿# Depress-o-matic
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://python.org/)
 [![OpenCV-Python](https://img.shields.io/pypi/v/opencv-python.svg)](https://pypi.python.org/pypi/opencv-python/)
+[![Build status](https://ci.appveyor.com/api/projects/status/gumr5rg9y2tprb0d?svg=true)](https://ci.appveyor.com/project/iCrazyBlaze/smile-detection)
 
 This program will track faces in its vision, and detect any smiles. It will then add "True" to the list if it detected a smile, or "False" if it did not.
 If "True" is the most common value in the list, then the program detects that the person in the image is happy, and will try to make them sad by insulting them.
